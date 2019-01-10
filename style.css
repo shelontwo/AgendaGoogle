@@ -1,0 +1,105 @@
+.fundo{
+    background: #e7eef1;
+}
+
+.header{
+    margin-top: 10px;
+}
+
+
+.box{
+    border-radius: 5px;
+    box-shadow:5px 5px 20px #eaeaea;
+    background: #fefefe;
+    padding:5px;
+    font-size: 13px;
+}
+.emandamento{
+    background: #fefefe;
+   
+}
+
+.livre{
+     box-shadow: 0px 5px 0px #3b8900;
+}
+
+.ocupado{
+     box-shadow: 0px 5px 0px #e30000;
+}
+
+
+.box-interno{
+    padding: 5px;
+    font-size: 12px;
+    background:#f6f6f6;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.box-menor{
+    padding: 5px;
+    height: 150px;
+    font-size: 10px;
+}
+
+.text-r{
+    text-align: right;
+}
+
+
+.descricao{
+    color: #6f6f6f;
+    font-size: 9px;
+}
+
+.data{
+    font-size: 12px;
+}
+
+.descricao-principal{
+    color: #6f6f6f;
+    font-size: 11px;
+}
+
+
+
+.proximos{
+    margin-top: 25px;
+}
+
+.box-status{
+    text-align: center;
+}
+
+.box-livre{
+    background: #3b8900;
+    border-radius: 130px;
+    width: 130px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-ocupado{
+    background: #e30000;
+    border-radius: 130px;
+    width: 130px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 767px) {
+  .descricao {
+    font-size: 12px;
+  }
+
+  .box-menor{
+    height: auto;
+    font-size: 14px;
+
+}
+}
+
+
